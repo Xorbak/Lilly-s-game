@@ -1,0 +1,1 @@
+import{a as s}from"./index-BhTXYE8Q.js";const c=()=>({play:s.useCallback(o=>{new Audio(`/sounds/${o}`).play().catch(a=>{console.warn(`[useSound] Failed to play /sounds/${o}:`,a)})},[])});export{c as u};
