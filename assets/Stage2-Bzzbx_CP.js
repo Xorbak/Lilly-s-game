@@ -1,4 +1,4 @@
-import{u as L,a as n,j as e,L as C,T as i,B as o,I as M,o as b}from"./index-BhTXYE8Q.js";import{d as X}from"./VolumeUp-rmkKt2ic.js";import{d as N}from"./ArrowBack-UrcyV4Nc.js";import{u as V}from"./useTTS-DRVoxA1o.js";import{u as Y}from"./useSound-CchPcnqo.js";import{a as G}from"./data-VEyYWq5Y.js";const P=a=>`phonetic/sound_${a.toLowerCase()}.mp3`,q=b`
+import{u as L,a as n,j as e,L as C,T as i,B as o,I as M,o as b}from"./index-tPb2YgRF.js";import{d as X}from"./VolumeUp-Cxx7tyAJ.js";import{d as N}from"./ArrowBack-GxCEFdR2.js";import{u as V}from"./useTTS-0NpELml-.js";import{u as Y}from"./useSound-BMZnMpqk.js";import{a as G}from"./data-VEyYWq5Y.js";const P=a=>`phonetic/sound_${a.toLowerCase()}.mp3`,q=b`
   0%,100% { transform: translateX(0); }
   20%      { transform: translateX(-12px); }
   40%      { transform: translateX(12px); }
