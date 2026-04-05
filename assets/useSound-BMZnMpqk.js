@@ -1,1 +1,0 @@
-import{a as s}from"./index-tPb2YgRF.js";const e=()=>({play:s.useCallback(o=>{new Audio(`/Lilly-s-game/sounds/${o}`).play().catch(a=>{console.warn(`[useSound] Failed to play /sounds/${o}:`,a)})},[])});export{e as u};

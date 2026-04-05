@@ -1,0 +1,1 @@
+import{r as u}from"./index-Cxh_JMun.js";const r=()=>({play:u.useCallback((o,n=1)=>{const s=a=>{if(a<=0)return;const e=new Audio(`/Lilly-s-game/sounds/${o}`);e.onended=()=>setTimeout(()=>s(a-1),500),e.play().catch(t=>{console.warn(`[useSound] Failed to play /sounds/${o}:`,t)})};s(n)},[])});export{r as u};
