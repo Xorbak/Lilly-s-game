@@ -1,5 +1,5 @@
 import { Suspense, lazy } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider, createTheme, CssBaseline, CircularProgress, Box } from '@mui/material';
 import { GAMES } from './config/games';
 import { Home } from './pages/Home';
@@ -27,7 +27,7 @@ const Loader = () => (
 export const App = () => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
-    <BrowserRouter>
+    <HashRouter>
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,6 +39,6 @@ export const App = () => (
           <Route path="/sound-adventure/2" element={<Stage2 />} />
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   </ThemeProvider>
 );
